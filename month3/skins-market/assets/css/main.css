@@ -1,0 +1,17 @@
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.social-img img{
+    width: 30px;
+}
+.profile-img{
+    width: 40px;
+    border-radius: 50%;
+}
+.gena{
+    align-items: center;
+    display: flex
+}
