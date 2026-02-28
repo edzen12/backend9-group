@@ -1,8 +1,19 @@
+body{
+    background-color: #1A1C21;
+    color: #BABABA;
+}
+.breadcrumb-item+.breadcrumb-item::before{
+    color: #BABABA;
+}
+.colorGray{
+    color: #BABABA;
+}
 li{
-    list-style-type: none;
+    list-style-type: none; 
 }
 a{
     text-decoration: none;
+    color: #BABABA;
 }
 .social-img img{
     width: 30px;
