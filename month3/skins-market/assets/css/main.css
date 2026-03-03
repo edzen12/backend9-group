@@ -8,6 +8,18 @@ body{
 .colorGray{
     color: #BABABA;
 }
+.dropdown-menu{
+    background-color: #1A1C21;
+}
+.dropdown-item{
+    color: white;
+}
+.dropdown-item img{
+    width: 60px;
+}
+.guns li{
+    margin-left: 10px;
+}
 li{
     list-style-type: none; 
 }
@@ -25,4 +37,11 @@ a{
 .gena{
     align-items: center;
     display: flex
+}
+.price input{
+    width: 50%;
+}
+.price{
+    padding-left: 10px;
+    padding-right: 10px;
 }
