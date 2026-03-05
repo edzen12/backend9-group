@@ -45,3 +45,29 @@ a{
     padding-left: 10px;
     padding-right: 10px;
 }
+.cardGena{
+    background-color: #1A1C21;
+    color: white;
+    box-shadow: 2px 2px 5px 2px black;
+}
+.cardGena p{
+    margin: 0;
+}
+.cardGena a{
+    width: 100%;
+    border-radius: 0;
+    color: white;
+}
+.cardGena a:hover{
+    background-color: #ffa040;
+}
+.cardTextGena span{
+    font-size: 14px;
+}
+.singlePAge .card{
+    border: 0;
+}
+.card-body {
+    background-color: #292b33;
+    color: white;
+}
