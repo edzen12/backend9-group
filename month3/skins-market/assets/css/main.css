@@ -71,3 +71,16 @@ a{
     background-color: #292b33;
     color: white;
 }
+.qualityBlock p{
+    margin: 0;
+}
+.qualityBlock span{
+    font-size: 12px;
+    color: gray;
+}
+.cardQualityBlock {
+    border: 1px rgb(54, 54, 54) solid;
+}
+.cardQualityBlock:hover{
+    border: 1px rgb(105, 105, 105) solid;
+}
