@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+body{
+    font-family: "Bitcount Grid Double", system-ui;
+    margin: 0;
+}
+
+.menu ul{
+    display: flex;
+    justify-content: center;
+    box-shadow: 5px 2px black;
+}
+.menu li{
+    font-size: 20px;
+    margin-left: 30px;
+    list-style-type: none;
+}
+.menu a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black; 
+}
+.banner{
+    text-align: center;
+    margin-top: 20px;
+}
+.BigBlock{
+    margin-top: 50px;
+    display: flex; 
+    justify-content:space-evenly;
+}
+.block{
+    width: 400px;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 20px;
+}
+.block img{
+    width: 400px;
+}
+.bgYellow{
+    color: black;
+    background-color: yellow;
+}
+.bgPurple{ 
+    background-color: purple;
+}
+.bgGreen{ 
+    background-color: green;
+}
+.about{
+    display: flex;
+    margin-top: 50px;
+    width: 100%; 
+}
+.aboutText{
+    padding-left: 30px;
+    width: 50%;
+}
+.aboutText p{
+    font-size: 20px;
+}
+.aboutImage{
+    width: 50%;
+}
+.aboutImage img{
+    width: 600px;
+}
+/* footer */
+footer{
+    font-family: "Manrope", sans-serif;
+    background-color: rgb(68, 125, 233); 
+    padding: 20px;
+    color: white;
+}
+.block20 li{
+    font-size: 18px; 
+    list-style-type: none;
+}
+.block20 a{
+    text-decoration: none; 
+    color: white; 
+}
+.footer-content{
+    width: 100%;
+    display: flex;
+}
+.block40{
+    font-size: 18px;
+    width: 40%;
+}
+.block20{
+    width: 20%;
+}
+/* contact page */
+.bannerText{
+    text-align: center;
+}
+.contactForm input{
+    font-size: 18px;
+}
+.contactForm textarea{
+    font-size: 18px;
+}
+.contactForm .btn{
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+.contactBlockBig{
+    display: flex;
+    justify-content: space-around;
+}
+/*  */
+.container{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.sportBlock{
+    font-family:Arial, Helvetica, sans-serif;
+    width: 100%;
+    display: flex;
+}
+.sportBlock50{
+    width: 50%;
+}
+.sportBlock50 a{
+    text-decoration: none;
+    color: black;
+}
+.sportBlock50 a:hover{ 
+    color: red;
+}
+.sportBlock50 img{
+    width: 600px; 
+    height: 100%;
+    object-fit: cover;
+}
+.blockImg{
+    height: 500px;
+}

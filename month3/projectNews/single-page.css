@@ -1,0 +1,32 @@
+.great{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.singleBigBlock{
+    width: 100%;
+    display: flex;  
+}
+.mainBlock{
+    width: 70%; 
+}
+.sidebarBlock{
+    width: 30%; 
+}
+.mainImg{
+    width: 700px;
+}
+.mainImg img{
+    width: 100%;
+}
+.menuSidebar a{
+    text-decoration: none;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.menuSidebar li{
+    list-style-type:  none;
+    margin-top: 15px;
+    background-color: rgb(58, 81, 253);
+     border-radius: 10px;
+}
